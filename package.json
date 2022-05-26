@@ -1,0 +1,22 @@
+{
+  "name": "cdk",
+  "version": "0.1.0",
+  "bin": {
+    "cdk": "bin/cdk.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "aws-cdk": "2.24.1",
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-apigatewayv2-alpha": "^2.25.0-alpha.0",
+    "@aws-cdk/aws-apigatewayv2-integrations-alpha": "^2.25.0-alpha.0",
+    "@unifo/cdk-commons": "^0.1.1",
+    "aws-cdk-lib": "2.24.1"
+  }
+}
